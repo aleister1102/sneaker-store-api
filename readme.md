@@ -29,22 +29,3 @@ Tutorials:
 
 Docs:
 - https://jse.readthedocs.io/en/latest/utils/jackson/jacksonObjectMapper.html
-
-## Tasks
-
-### Task 1
-
-- [x] Implement the predicate builder for nested objects
-
-Questions:
-- [x] Is the current usage of the predicate builder correct? - use object mapper to map json string request param into filter object.
-- [x] When query, we embed the nested object inside the main object? - with operators like "where", "gt", ...
-- [x] I will parse query param to search criteria in LBPredicateBuilder and implement a getObjectPredicate method in LBPredicate? - juts implement a getObjectPredicate method in LBPredicate
-
-### Task 2
-
-- [x] Handle the case when the nested object have operators
-
-### Task 3
-
-- [x] Handle the case for nested array
