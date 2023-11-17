@@ -1,4 +1,4 @@
-# Spring Boot with PostgreSQL
+# Sneaker Store API
 
 ## Java
 - Get generic type of elements in List: https://stackoverflow.com/questions/1942644/get-generic-type-of-java-util-list
