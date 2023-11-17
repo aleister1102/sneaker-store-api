@@ -1,0 +1,18 @@
+spring:
+    jpa:
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+                "[format_sql]": true
+        hibernate:
+            ddl-auto: create
+        show-sql: true
+    datasource:
+        url: jdbc:postgresql://localhost:5432/sneaker_store
+        username: postgres
+        password: postgres
+    output:
+        ansi:
+            enabled: ALWAYS
+server:
+    port: 8089
